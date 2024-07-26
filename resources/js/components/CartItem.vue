@@ -1,5 +1,5 @@
 <template>
-  <b-card class="mb-3" :data-id="item.id">
+  <b-card class="mb-3">
     <b-row class="align-items-center">
       <b-col cols="auto">
         <b-img :src="item.product.prodImageURL" :alt="item.product.prodName" class="img-thumbnail" />
@@ -31,11 +31,9 @@ export default {
 </script>
 
 <style scoped>
-
 .img-thumbnail {
   width: 100px; 
   height: 100px; 
   object-fit: cover; 
 }
-
 </style>
